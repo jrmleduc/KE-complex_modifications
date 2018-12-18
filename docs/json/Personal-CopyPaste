@@ -1,0 +1,13 @@
+{ "title": "MouseButton Fastmove - Don’t forget to enable mouse under devices”, "rules": [
+
+ { "description": "MouseButton4 to Fastcopy", "manipulators": [
+ { "type": "basic", "from": { "pointing_button": "button4" },
+"to": [{ "pointing_button": "button1" },{ "pointing_button": "button1" },{ "pointing_button": "button1” },{ "key_code": "c", "modifiers": "left_command" } ] }
+ ] }, 
+
+ { "description": "MouseButton5 to Fastpaste", "manipulators": [
+ { "type": "basic", "from": { "pointing_button": "button5" },
+ "to": [ { "pointing_button": "button1" },{ "pointing_button": "button1" },{ "pointing_button": "button1” },{ "key_code": “v", "modifiers": "left_command” },{ "key_code": “return_or_enter", "modifiers": “shift" } 
+ ] }, 
+
+] }
